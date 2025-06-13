@@ -1,0 +1,15 @@
+{
+    "resourcesDirectory": "./resources",
+    "screens": {
+        "android": {
+            "splash": {
+                "backgroundColor": "#ffffff",
+                "image": "./resources/splash.png",
+                "resizeMode": "contain"
+            },
+            "icon": {
+                "image": "./resources/icon.png"
+            }
+        }
+    }
+}

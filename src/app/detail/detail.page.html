@@ -1,0 +1,39 @@
+<ion-header>  
+  <ion-toolbar>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button default-href="/home"></ion-back-button>
+        <ion-title>{{ breed?.name }}</ion-title>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <ion-card>
+      <div class="image-container">
+        <img [src]="breed?.image?.url" *ngIf="breed?.image?.url" [alt]="breed?.name" />
+      </div>
+
+      <div class="scrollable-card-content">
+        <ion-card-content>
+          <p class="mb-3">{{ breed?.description }}</p>
+          <ion-card-title  >Origen</ion-card-title>
+          <h5 class="mb-3">{{ breed?.origin }} - {{breed.country_code}}</h5>
+          <ion-card-title >Temperamento</ion-card-title>
+          <h5 class="mb-3">{{ breed?.temperament }}</h5>
+          <ion-card-title >Esperanza de vida</ion-card-title>
+          <h5 class="mb-3">{{ breed?.life_span }} años</h5>
+          <ion-card-title >Tamaño</ion-card-title>
+          <h5 class="mb-3">Pulgadas: {{ breed?.weight.imperial }}</h5>
+          <h5 class="mb-3">Centimetros: {{ breed?.weight.metric }}</h5>
+          <ion-card-title >Más información en</ion-card-title>
+          <h5 class="mb-3">
+            <a [href]="breed?.wikipedia_url"> {{ breed?.wikipedia_url }}</a>
+          </h5>
+        </ion-card-content>
+      </div>
+    </ion-card>
+  </div>
+</ion-content>

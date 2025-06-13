@@ -3,7 +3,18 @@ import type { CapacitorConfig } from '@capacitor/cli';
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
   appName: 'ionic-test',
-  webDir: 'www'
+  webDir: 'www',
+  plugins: {
+    SplashScreen: {
+launchShowDuration: 3000, // opcional
+      splashFullScreen: true,
+      splashImmersive: true,
+      androidScaleType: 'CENTER_CROP', // o FIT_XY según tu imagen
+      showSplashScreen: true,
+      launchAutoHide: true,
+      androidSplashResourceName: "splash"
+    }
+  }
 };
 
 export default config;

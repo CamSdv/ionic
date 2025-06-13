@@ -1,0 +1,23 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ionic-test",
+	"webDir": "www",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 3000,
+			"splashFullScreen": true,
+			"splashImmersive": true,
+			"androidScaleType": "CENTER_CROP",
+			"showSplashScreen": true,
+			"launchAutoHide": true,
+			"androidSplashResourceName": "splash"
+		}
+	},
+	"packageClassList": [
+		"AppPlugin",
+		"HapticsPlugin",
+		"KeyboardPlugin",
+		"SplashScreenPlugin",
+		"StatusBarPlugin"
+	]
+}

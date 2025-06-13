@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Capacitor Android build files
+android/app/build/
+android/.gradle/
+android/.idea/
+android/local.properties
+
+# Capacitor iOS build files
+ios/App/build/
+ios/Pods/
+ios/App/output/
+ios/DerivedData/
+ios/App/public/
+ios/App/xcuserdata/
+ios/capacitor-cordova-ios-plugins/
+
+# Capacitor config/generated files
+ios/App/capacitor.config.json
+ios/App/config.xml
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# IDE/editor settings
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
