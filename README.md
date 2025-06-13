@@ -84,8 +84,10 @@ No requiere autenticación ni clave para uso básico.
 src/
 ├── app/
 │   ├── home/               # Página principal con cards
-│   ├── services/           # Lógica para consumo de API
-│   ├── components/         # Componentes compartidos
+│   ├── detail/             # Detalle de cada gato con cards
+│   ├── shared/
+|       ├── services/       # Lógica para consumo de API
+│   
 │   └── ...
 ├── assets/                 # Splash, iconos, etc.
 ├── global.scss             # Estilos globales
@@ -96,7 +98,6 @@ src/
 
 ### ✅ TODO / Mejoras futuras
 
-- Agregar vista de detalle para cada raza.
 - Mejorar accesibilidad y diseño visual.
 - Agregar favoritos o guardar razas preferidas localmente.
 - Internacionalización (i18n).
