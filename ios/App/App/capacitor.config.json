@@ -4,13 +4,10 @@
 	"webDir": "www",
 	"plugins": {
 		"SplashScreen": {
-			"launchShowDuration": 3000,
-			"splashFullScreen": true,
-			"splashImmersive": true,
-			"androidScaleType": "CENTER_CROP",
-			"showSplashScreen": true,
-			"launchAutoHide": true,
-			"androidSplashResourceName": "splash"
+			"launchShowDuration": 4000,
+			"backgroundColor": "#ffffff",
+			"androidSplashResourceName": "splash",
+			"androidScaleType": "FIT_CENTER"
 		}
 	},
 	"packageClassList": [

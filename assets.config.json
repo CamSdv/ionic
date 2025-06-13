@@ -1,14 +1,17 @@
 {
     "resourcesDirectory": "./resources",
-    "screens": {
+    "outputDirectory": "./android/app/src/main/res",
+    "platforms": {
         "android": {
-            "splash": {
-                "backgroundColor": "#ffffff",
-                "image": "./resources/splash.png",
-                "resizeMode": "contain"
-            },
             "icon": {
-                "image": "./resources/icon.png"
+                "source": "resources/icon.png",
+                "foreground": "resources/icon.png",
+                "background": "#ffffff"
+            },
+            "splash": {
+                "source": "resources/splash.png",
+                "backgroundColor": "#ffffff",
+                "imageScale": "cover"
             }
         }
     }

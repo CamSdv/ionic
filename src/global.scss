@@ -35,3 +35,15 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
+
+
+ion-content {
+    --padding-top: env(safe-area-inset-top);
+}
+
+ion-header,
+ion-toolbar {
+    padding-top: env(safe-area-inset-top);
+    background-color: white;
+    z-index: 9999;
+}
