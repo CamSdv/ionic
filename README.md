@@ -86,7 +86,7 @@ src/
 │   ├── home/               # Página principal con cards
 │   ├── detail/             # Detalle de cada gato con cards
 │   ├── shared/
-|       ├── services/       # Lógica para consumo de API
+│       ├── services/       # Lógica para consumo de API
 │   
 │   └── ...
 ├── assets/                 # Splash, iconos, etc.
